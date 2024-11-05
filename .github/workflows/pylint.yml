@@ -26,4 +26,4 @@ jobs:
       - name: Run pylint
         run: |
           # Replace 'src' with the directory where your Python files are located
-          pylint src/**/*.py
+          pylint *.py
